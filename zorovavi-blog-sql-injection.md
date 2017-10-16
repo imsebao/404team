@@ -1,10 +1,12 @@
-#powered by sebao from 404team#
+## powered by sebao from 404team ##
 
 
-##Vulnerability link##
+## Vulnerability link ##
+
 https://github.com/zorovavi/blog
 
-##Vulnerability details##
+## Vulnerability details ##
+
 in recept.php line 41 allows SQL Injection via the id parameter
 
 	<?php 
@@ -15,7 +17,9 @@ in recept.php line 41 allows SQL Injection via the id parameter
 		$zag=$zag1[0];
 	?>
 	<p><img src="images/<?php echo "$id" ?>.jpg" alt = "рецепт"><?php echo "$zag"?></p>
-  
-##POC:##
+
+this code only check the file content-type. if attackers set content-type to image/jpeg can upload any file.for example php file
+
+## poc ##
 
 http://target/recept.php?id=-1 union select user()
