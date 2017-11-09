@@ -1,4 +1,4 @@
-simplePHPBlog SQL injection
+#simplePHPBlog SQL injection#
 
 ##Vulnerability link##
 
