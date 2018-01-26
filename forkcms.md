@@ -1,3 +1,4 @@
+CVE-2018-5215
 forkcms has XSS via the /private/en/pages/edit title parameter. 
 
 ![](1.jpg)
