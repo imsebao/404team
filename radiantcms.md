@@ -1,4 +1,5 @@
 # radiantcms xss vul #
+CVE-2018-5215
 login demo site http://demo.radiantcms.org/admin/
 Username: admin
 Password: radiant
