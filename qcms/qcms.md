@@ -1,4 +1,4 @@
-#Qcms version 3.0 has xss via the webname parameter to the /backend/system.html URI
+# Qcms version 3.0 has xss via the webname parameter to the /backend/system.html URI
 
 there is a xss in admin page `/backend/system.html` webname parameter.
 
