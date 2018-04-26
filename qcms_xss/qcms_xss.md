@@ -1,5 +1,7 @@
 # Qcms version 3.0 has xss via the title parameter to the /guest/index.html URI	
 
+**CVE-2018-8070**
+
 set xss payload `<svg/onload=alert(0)>` to the title parameter in `/guest/index.html`,when admin user confirm this feedback in admin page there is alert box,attacker can get admin's cookie.
 ![](2.png)
 
