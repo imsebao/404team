@@ -1,5 +1,7 @@
 ## lyadmin has xss in adminpage WEB_SITE_TITLE parameter ##
 
+**CVE-2018-7547**
+
 There is a xss vul in lyadmin> adminpage>system settig>WEB\_SITE\_TITLE parameter.
 ![](1.png)
 post data:
