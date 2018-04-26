@@ -1,5 +1,7 @@
 ## powered by sebao from 404team ##
 
+**CVE-2017-14346**
+
 tianchoy/blog allows remote attackers to unauthentication of administrators for requests that upload PHP files. 
 
 
