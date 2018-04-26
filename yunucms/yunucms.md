@@ -1,4 +1,5 @@
 # yunucms 1.0.7 has xss vulnerability in news center page title parameter#
+**CVE-2018-9993**
 
 in login with admin and visit `http://localhost/index.php/admin/content/addcontent/cid/38` to add a new content.
 
