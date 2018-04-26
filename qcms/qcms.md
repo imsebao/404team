@@ -1,6 +1,7 @@
 # Qcms version 3.0 has xss via the webname parameter to the /backend/system.html URI
 
 **CVE-2018-8069**
+
 there is a xss in admin page `/backend/system.html` webname parameter.
 
 set xss payload `<svg/onload=alert(0)>` to the webname parameter and save the edit then visite site `/index.php`,there is a alert box to show 0.
