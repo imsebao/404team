@@ -15,8 +15,9 @@
 Reproduction Steps:
 
 1. Go to your wi-fi router gateway [i.e: http://192.168.0.1]
+1.login with admin 
 1. Go to –> “System” –> “Traceroute”
-2. Set host "a.com&ls"
-3. Start Traceroute
+1. Set host "a.com&ls"
+1. Start Traceroute
 
 ![](dlink.png)
